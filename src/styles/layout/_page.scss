@@ -1,0 +1,51 @@
+#root {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  height: 100vh;
+  background-color: gray;
+}
+.page {
+  background-color: white;
+  width: 21cm;
+  height: 29.7cm;
+}
+.header {
+  background-color: #005ea4;
+  height: 16%;
+  padding: var(--pagePadding);
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 25% 40% 35%;
+  align-items: center;
+
+  .position {
+    margin-top: 0.4rem;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 0.3rem;
+    
+  }
+}
+.main {
+  padding: var(--pagePadding);
+  padding-top: 1.5rem;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  gap: 1.5rem;
+
+  .list {
+    margin-left: 1rem;
+  }
+}
+
+.largerArea {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

@@ -1,0 +1,22 @@
+.photoElement {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 8rem;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  &__image {
+    margin-left: 3px;
+    width: 10.5rem;
+    aspect-ratio: 1 / 1; 
+  }
+}
+
+.icon {
+  width: 0.9rem;
+  aspect-ratio: 1 / 1;
+  filter: invert(100%);
+  margin-left: 0.2rem;
+}
