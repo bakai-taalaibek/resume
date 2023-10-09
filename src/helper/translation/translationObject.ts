@@ -11,7 +11,7 @@ export const translationObject = [
   },
   {
     key: 'position',
-    ru: 'Full-Stack Developer (React, Node)',
+    ru: 'Full-Stack разработчик (React, Node)',
     en: 'Full-Stack Developer (React, Node)',
   },
   // {
@@ -56,7 +56,7 @@ export const translationObject = [
   },
   {
     key: 'devsTitle',
-    ru: 'Фронтенд-разработчик, “Devs Factory”,',
+    ru: 'Frontend-разработчик, “Devs Factory”,',
     en: 'Front-End Developer, “Devs Factory“,',
   },
   {
@@ -68,22 +68,22 @@ export const translationObject = [
     key: 'devsBullet1',
     ru: `Разработал клиентскую часть онлайн-рекрутинг сервиса используя TypeScript, React, React Router, SCSS, 
     создал динамические формы, меняющиеся исходя из действий пользователей, с автоматической валидацией,
-   внедрил чат с использованием Redux Toolkit и WebSocket`,
+   внедрил чат с использованием WebSocket и Redux Toolkit`,
     en: `Developed the client side of an online recruiting service using TypeScript, React, React Router, and SCSS,
     built dynamic forms based on user input with automatic validations,
-    and implemented a chat using Redux Toolkit and WebSocket`,
+    and implemented a chat using WebSocket and Redux Toolkit`,
   },
   {
     key: 'devsBullet2',
-    ru: `Выделялся как эффективный фронтенд-разработчик, способный решать сложные задачи,
+    ru: `Выделялся как эффективный frontend-разработчик, способный решать сложные задачи,
     и регулярно помогал коллегам по техническим вопросам`,
-    en: `Recognized as an efficient frontend developer capable of solving complex tasks 
+    en: `Recognized as an efficient front-end developer capable of solving complex tasks 
     and regularly assisted colleagues with technical issues`,
   },
 
   {
     key: 'rskTitle1',
-    ru: 'Стажер фронтенд-разработчик,',
+    ru: 'Стажер Frontend-разработчик,',
     en: 'Front-End Developer Intern,',
   },
   {
@@ -108,9 +108,9 @@ export const translationObject = [
   },
   {
     key: 'rskBullet3',
-    ru: `Сыграл активную роль во фронтенд разработке, тесно сотрудничал с backend разработчиками, 
+    ru: `Сыграл активную роль во frontend-разработке, тесно сотрудничал с backend-разработчиками, 
     дизайнерами и PM. Мы работали по методологии Agile и использовали JIRA для управления задачами и отслеживания прогресса`,
-    en: `Played a vital role in the frontend team and closely collaborated with backend developers, 
+    en: `Played a vital role in the front-end team and closely collaborated with back-end developers, 
     designers, and PM. We operated under the Agile methodology and utilized JIRA for task management and tracking`,
   },
   {
