@@ -2,7 +2,6 @@ import photo from './assets/39.jpg'
 import { l, setLanguage } from './helper/translation/l'
 import { useState } from 'react'
 
-
 function App() {
   const [rerender, setRerender] = useState(false)
   const changeLanguage = () => {
@@ -15,7 +14,7 @@ function App() {
       <div className="page">
         <div className="header">
           <div className="photoElement">
-            <img className="photoElement__image" src={photo} onClick={changeLanguage}/>
+            <img className="photoElement__image" src={photo} onClick={changeLanguage} />
           </div>
           <div>
             <p className="text text--name text--header">{l('name')}</p>
@@ -70,12 +69,23 @@ function App() {
 
             <div className="section section--main section--first">
               <div className="text text--subheading">
-                {l('devsTitle')}&nbsp;
-                <span className="text text--secondary">{l('sinceJuly23')}</span>
+                {l('fortylinesTitle')}&nbsp;
+                <span className="text text--secondary">{l('sinceOctober23')}</span>
+              </div>
+              <ul>
+                <li className="text text--list list">{l('fortylinesBullet1')}</li>
+                <li className="text text--list list">{l('fortylinesBullet2')}</li>
+              </ul>
+            </div>
+
+            <div className="section section--main">
+              <div>
+                <span className="text text--subheading">{l('devsTitle')}&nbsp;</span>
+                <span className="text text--secondary text--nowrap">{l('JulyOctober23')}</span>
               </div>
               <ul>
                 <li className="text text--list list">{l('devsBullet1')}</li>
-                <li className="text text--list list">{l('devsBullet2')}</li>
+                {/* <li className="text text--list list">{l('devsBullet2')}</li> */}
               </ul>
             </div>
 
@@ -88,13 +98,13 @@ function App() {
               <ul>
                 <li className="text text--list list">{l('rskBullet1')}</li>
                 <li className="text text--list list">{l('rskBullet2')}</li>
-                <li className="text text--list list">{l('rskBullet3')}</li>
+                {/* <li className="text text--list list">{l('rskBullet3')}</li> */}
               </ul>
             </div>
 
             <div className="section section--main">
               <span className="text text--subheading">{l('makersTitle')}&nbsp;</span>
-              <span className="text text--secondary">{l('mayJuly2023')}</span>
+              <span className="text text--secondary">{l('marchMay2023')}</span>
               <ul>
                 <li className="text text--list list">{l('makersBullet1')}</li>
                 <li className="text text--list list">{l('makersBullet2')}</li>

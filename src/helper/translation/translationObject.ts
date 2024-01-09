@@ -11,8 +11,8 @@ export const translationObject = [
   },
   {
     key: 'position',
-    ru: 'Full-Stack разработчик (React, Node)',
-    en: 'Full-Stack Developer (React, Node)',
+    ru: 'JavaScript разработчик (Next, Node)',
+    en: 'JavaScript Developer (Next, Node)',
   },
   // {
   //   key: 'position2',
@@ -55,14 +55,38 @@ export const translationObject = [
     en: 'Experience',
   },
   {
+    key: 'fortylinesTitle',
+    ru: 'Frontend-разработчик, “Fortylines”,',
+    en: 'Front-End Developer, “Fortylines“,',
+  },
+  {
+    key: 'sinceOctober23',
+    ru: 'c октября 2023 г.',
+    en: 'since October 2023',
+  },
+  {
+    key: 'fortylinesBullet1',
+    ru: `Разработал клиентскую часть онлайн-магазина косметики, а также административную панель 
+    в команде из 4 разработчиков используя TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+    en: `Developed the client side of an online cosmetics store, as well as administrative panel 
+    as a part of a team of 4 developer using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+  },
+  {
+    key: 'fortylinesBullet2',
+    ru: `Регулярно проводил код-ревью, реализовал адаптивную верстку страниц, 
+    вносил предложения по архитектуре проекта и решению сложных задач`,
+    en: `Conducted regular code reviews, implemented adaptive page layout, 
+    made suggestions on project architecture and solving complex problems`,
+  },
+  {
     key: 'devsTitle',
     ru: 'Frontend-разработчик, “Devs Factory”,',
     en: 'Front-End Developer, “Devs Factory“,',
   },
   {
-    key: 'sinceJuly23',
-    ru: 'c июля 2023 г.',
-    en: 'since July 2023',
+    key: 'JulyOctober23',
+    ru: 'август-октябрь 2023 г.',
+    en: 'August-October 2023',
   },
   {
     key: 'devsBullet1',
@@ -119,9 +143,9 @@ export const translationObject = [
     en: 'Full-Stack Developer Intern, “Makers”,',
   },
   {
-    key: 'mayJuly2023',
-    ru: ' май-июль 2023 г.',
-    en: 'May-July 2023',
+    key: 'marchMay2023',
+    ru: 'март-май 2023 г.',
+    en: 'March-May 2023',
   },
   {
     key: 'makersBullet1',
