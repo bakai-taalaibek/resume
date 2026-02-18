@@ -10,9 +10,19 @@ export const translationObject = [
     en: 'Taalaibek uulu',
   },
   {
+    key: 'nameSubname',
+    ru: 'имя',
+    en: 'name',
+  },
+  {
+    key: 'surnameSubname',
+    ru: 'фамилия',
+    en: 'surname',
+  },
+  {
     key: 'position',
-    ru: 'JavaScript разработчик (Next, Node)',
-    en: 'JavaScript Developer (Next, Node)',
+    ru: '.NET разработчик',
+    en: '.NET Developer',
   },
   // {
   //   key: 'position2',
@@ -55,8 +65,55 @@ export const translationObject = [
     en: 'Experience',
   },
   {
+    key: 'poputiTitle',
+    ru: 'Пет-проект — карпулинг сервис POPUTI.KG',
+    en: 'Pet Project — POPUTI.KG carpooling service',
+  },
+  {
+    key: 'poputiBullet1',
+    ru: `Спроектировал и разработал full-stack веб-приложение для карпулинг-сервиса с нуля`,
+    en: `Designed and developed a full-stack carpooling web application from scratch`,
+  },
+
+  {
+    key: 'epamTitle',
+    ru: 'Стажер .NET разработчик, “EPAM Lab”,',
+    en: '.NET Developer Intern, “EPAM Lab“,',
+  },
+  {
+    key: 'sinceMarch25',
+    ru: 'март 2025 - февраль 2026 г.',
+    en: 'March 2025 - February 2026',
+  },
+  {
+    key: 'epamBullet1',
+    ru: `Разработал full-stack онлайн-магазин игр на .NET с нуля`,
+    en: `Developed an online cosmetics store with administrative panel as a part of a 
+    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+  },
+  {
+    key: 'epamBullet2',
+    ru: `Реализовал систему аутентификации и авторизации, 
+    фильтрацию и пагинацию товаров, систему комментариев, кэширование и логирование`,
+    en: `Developed an online cosmetics store with administrative panel as a part of a 
+    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+  },
+  {
+    key: 'epamBullet3',
+    ru: `Настроил контейнеризацию (Docker), middleware, сидирование и тестирование (XUnit, Moq)`,
+    en: `Developed an online cosmetics store with administrative panel as a part of a 
+    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+  },
+  {
+    key: 'epamBullet4',
+    ru: `Использовал .NET, EF Core, ASP.NET Core, Serilog, интегрировал SQL Server и MongoDB`,
+    en: `Developed an online cosmetics store with administrative panel as a part of a 
+    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+  },
+
+  {
     key: 'fortylinesTitle',
-    ru: 'Frontend-разработчик, “Fortylines”,',
+    ru: 'Frontend разработчик, “Fortylines”,',
     en: 'Front-End Developer, “Fortylines“,',
   },
   {
@@ -66,10 +123,10 @@ export const translationObject = [
   },
   {
     key: 'fortylinesBullet1',
-    ru: `Разработал клиентскую часть онлайн-магазина косметики, а также административную панель 
-    в команде из 4 разработчиков используя TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
-    en: `Developed the client side of an online cosmetics store, as well as administrative panel 
-    as a part of a team of 4 developer using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+    ru: `Разработал онлайн-магазин косметики с админ панелью в команде из 10 человек 
+    используя TypeScript, Next, React, Chakra UI, RTK Query и React Hook Form`,
+    en: `Developed an online cosmetics store with administrative panel as a part of a 
+    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
   },
   {
     key: 'fortylinesBullet2',
@@ -80,7 +137,7 @@ export const translationObject = [
   },
   {
     key: 'devsTitle',
-    ru: 'Frontend-разработчик, “Devs Factory”,',
+    ru: 'Frontend разработчик, “Devs Factory”,',
     en: 'Front-End Developer, “Devs Factory“,',
   },
   {
@@ -90,16 +147,14 @@ export const translationObject = [
   },
   {
     key: 'devsBullet1',
-    ru: `Разработал клиентскую часть онлайн-рекрутинг сервиса используя TypeScript, React, React Router, SCSS, 
-    создал динамические формы, меняющиеся исходя из действий пользователей, с автоматической валидацией,
-   внедрил чат с использованием WebSocket и Redux Toolkit`,
-    en: `Developed the client side of an online recruiting service using TypeScript, React, React Router, and SCSS,
-    built dynamic forms based on user input with automatic validations,
-    and implemented a chat using WebSocket and Redux Toolkit`,
+    ru: `Разработал онлайн-рекрутинг сервис, используя TypeScript, React, SCSS, 
+    Redux Toolkit, WebSocket`,
+    en: `Developed an online recruiting service using TypeScript, React, SCSS, 
+    Redux Toolkit, WebSocket`,
   },
   {
     key: 'devsBullet2',
-    ru: `Выделялся как эффективный frontend-разработчик, способный решать сложные задачи,
+    ru: `Выделялся как эффективный frontend разработчик, способный решать сложные задачи,
     и регулярно помогал коллегам по техническим вопросам`,
     en: `Recognized as an efficient front-end developer capable of solving complex tasks 
     and regularly assisted colleagues with technical issues`,
@@ -107,7 +162,7 @@ export const translationObject = [
 
   {
     key: 'rskTitle1',
-    ru: 'Стажер Frontend-разработчик,',
+    ru: 'Стажер Frontend разработчик,',
     en: 'Front-End Developer Intern,',
   },
   {
@@ -122,8 +177,10 @@ export const translationObject = [
   },
   {
     key: 'rskBullet1',
-    ru: 'Занял первое место по результатам стажировки',
-    en: 'Awarded first place at the end of the internship program',
+    ru: `Занял первое место по результатам соревнования за разработку онлайн-систему очередей для банка,
+    используя JS, React, REST, Java, PostgreSQL, Agile, JIRA`,
+    en: `Awarded first place at the conclusion of a competition for developing an online queue system 
+    for a bank utilizing JS, React, REST, Java, PostgreSQL, Agile, JIRA`,
   },
   {
     key: 'rskBullet2',
@@ -132,7 +189,7 @@ export const translationObject = [
   },
   {
     key: 'rskBullet3',
-    ru: `Сыграл активную роль во frontend-разработке, тесно сотрудничал с backend-разработчиками, 
+    ru: `Сыграл активную роль во frontend разработке, тесно сотрудничал с backend разработчиками, 
     дизайнерами и PM. Мы работали по методологии Agile и использовали JIRA для управления задачами и отслеживания прогресса`,
     en: `Played a vital role in the front-end team and closely collaborated with back-end developers, 
     designers, and PM. We operated under the Agile methodology and utilized JIRA for task management and tracking`,
@@ -149,8 +206,8 @@ export const translationObject = [
   },
   {
     key: 'makersBullet1',
-    ru: `Разработал и внедрил сайт для блогов c возможностью CRUD-операций для пользовательских записей (JavaScript, React, Node, Express, MongoDB)`,
-    en: `Designed and implemented a blogging website, enabling CRUD operations for user posts (JavaScript, React, Node, Express, MongoDB)`,
+    ru: `Разработал Full-Stack проекты будучи тимлидом команды из 8 человек используя JS, React, REST, Node, MongoDB`,
+    en: `Developed Full-Stack projects while leading a team of 8 developers utilizing JS, React, REST, Node, MongoDB`,
   },
   {
     key: 'makersBullet2',
@@ -196,12 +253,11 @@ export const translationObject = [
   },
   {
     key: 'summaryContent',
-    ru: `Full-Stack разработчик с девятилетним опытом в банковском деле, вошел в число 50 лучших
-    выпускников по итогам Общереспубликанского тестирования. Активно развиваюсь в сфере
-    веб-разработки.`,
-    en: `Full-Stack developer with nine years of experience in the banking domain, ranked among 50 best
-    high school graduates in Kyrgyzstan based on Nationwide testing. Actively progressing in the field
-    of web development.`,
+    ru: `.NET разработчик с опытом во Frontend. Имею девятилетний опыт в банковской сфере, 
+    вошел в число 50 лучших выпускников по итогам Общереспубликанского тестирования.`,
+    en: `.NET developer with Frontend experience. I have nine years of experience 
+    in the banking domain, ranked among 50 best high school graduates in Kyrgyzstan based on 
+    Nationwide testing.`,
   },
   {
     key: 'skills',

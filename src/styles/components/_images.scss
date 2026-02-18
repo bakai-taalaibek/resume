@@ -1,7 +1,8 @@
 .photoElement {
   border-radius: 50%;
   overflow: hidden;
-  width: 7.6rem;
+  width: 6rem;
+  height: 6rem;
   aspect-ratio: 1 / 1;
   display: flex;
   justify-content: center;
@@ -9,7 +10,7 @@
 
   &__image {
     margin-left: 3px;
-    width: 10rem;
+    width: 8rem;
     aspect-ratio: 1 / 1; 
   }
 }

@@ -3,11 +3,18 @@
   text-decoration: none;
 
   &--header {
-    color: white;
+    color: black;
   }
 
   &--name {
-    font-size: 1.73rem;
+    font-size: 1.5rem;
+  }
+
+  &--subname {
+    font-size: 0.8rem;
+    // text-transform: uppercase;
+    // font-weight: 500;
+    color: rgb(194, 194, 194);
   }
 
   &--position {
@@ -15,7 +22,7 @@
   }
 
   &--contact {
-    font-size: 0.75rem;   
+    font-size: 0.75rem;
   }
 
   &--icon {
@@ -30,7 +37,7 @@
   }
 
   &--subheading {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.5rem;
     position: relative;

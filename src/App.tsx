@@ -1,6 +1,6 @@
+import { useState } from 'react'
 import photo from './assets/39.jpg'
 import { l, setLanguage } from './helper/translation/l'
-import { useState } from 'react'
 
 function App() {
   const [rerender, setRerender] = useState(false)
@@ -47,13 +47,13 @@ function App() {
             >
               <span>{l('github')} </span>
             </a>
-            <a
+            {/* <a
               className="contact text text--contact text--header"
               href="https://gitlab.com/bakai-taalaibek"
               target="_blank"
             >
               <span>{l('gitlab')} </span>
-            </a>
+            </a> */}
             <a
               className="contact text text--contact text--header"
               href="https://www.linkedin.com/in/bakai-taalaibek/"
@@ -69,12 +69,37 @@ function App() {
 
             <div className="section section--main section--first">
               <div className="text text--subheading">
+                {l('poputiTitle')}&nbsp;
+                {/* <span className="text text--secondary">{l('sinceOctober23')}</span> */}
+              </div>
+              <ul>
+                <li className="text text--list list">{l('poputiBullet1')}</li>
+                {/* <li className="text text--list list">{l('fortylinesBullet2')}</li> */}
+              </ul>
+            </div>
+
+            <div className="section section--main">
+              <div className="text text--subheading">
+                {l('epamTitle')}&nbsp;
+                <span className="text text--secondary text--nowrap">{l('sinceMarch25')}</span>
+              </div>
+              <ul>
+                <li className="text text--list list">{l('epamBullet1')}</li>
+                <li className="text text--list list">{l('epamBullet2')}</li>
+                <li className="text text--list list">{l('epamBullet3')}</li>
+                <li className="text text--list list">{l('epamBullet4')}</li>
+                {/* <li className="text text--list list">{l('fortylinesBullet2')}</li> */}
+              </ul>
+            </div>
+
+            <div className="section section--main">
+              <div className="text text--subheading">
                 {l('fortylinesTitle')}&nbsp;
                 <span className="text text--secondary">{l('sinceOctober23')}</span>
               </div>
               <ul>
                 <li className="text text--list list">{l('fortylinesBullet1')}</li>
-                <li className="text text--list list">{l('fortylinesBullet2')}</li>
+                {/* <li className="text text--list list">{l('fortylinesBullet2')}</li> */}
               </ul>
             </div>
 
@@ -97,7 +122,7 @@ function App() {
               </div>
               <ul>
                 <li className="text text--list list">{l('rskBullet1')}</li>
-                <li className="text text--list list">{l('rskBullet2')}</li>
+                {/* <li className="text text--list list">{l('rskBullet2')}</li> */}
                 {/* <li className="text text--list list">{l('rskBullet3')}</li> */}
               </ul>
             </div>
@@ -107,7 +132,7 @@ function App() {
               <span className="text text--secondary">{l('marchMay2023')}</span>
               <ul>
                 <li className="text text--list list">{l('makersBullet1')}</li>
-                <li className="text text--list list">{l('makersBullet2')}</li>
+                {/* <li className="text text--list list">{l('makersBullet2')}</li> */}
               </ul>
             </div>
 
@@ -119,7 +144,7 @@ function App() {
               </div>
               <ul>
                 <li className="text text--list list">{l('nationalBankBullet1')}</li>
-                <li className="text text--list list">{l('nationalBankBullet2')}</li>
+                {/* <li className="text text--list list">{l('nationalBankBullet2')}</li> */}
               </ul>
             </div>
           </div>
@@ -131,11 +156,11 @@ function App() {
             <div className="section">
               <div className="text text--heading">{l('skills')}</div>
               <ul className="list">
-                <li className="text text--list">HTML, SCSS, Tailwind</li>
-                <li className="text text--list">Typescript, JavaScript</li>
-                <li className="text text--list">React, Redux Toolkit</li>
-                <li className="text text--list">Node, Express</li>
-                <li className="text text--list">PostgreSQL, MongoDB</li>
+                <li className="text text--list">C#, ASP .NET Core</li>
+                <li className="text text--list">EF Core, LINQ, REST</li>
+                <li className="text text--list">OOP, SOLID, DRY, KISS</li>
+                <li className="text text--list">PostgreSQL, SQL Server</li>
+                <li className="text text--list">JS, TS, React, Node</li>
                 <li className="text text--list">git, bash, Linux, Docker</li>
               </ul>
             </div>
