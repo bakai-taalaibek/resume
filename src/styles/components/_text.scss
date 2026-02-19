@@ -1,28 +1,41 @@
 .text {
   font-family: var(--fontMain);
   text-decoration: none;
+  line-height: 130%;
 
   &--header {
     color: black;
   }
 
   &--name {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(235, 235, 235);
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1.5px;
   }
 
   &--subname {
+    line-height: 100%;
     font-size: 0.8rem;
     // text-transform: uppercase;
-    // font-weight: 500;
-    color: rgb(194, 194, 194);
+    font-weight: 400;
+    color: rgb(210, 210, 210);
   }
 
+  &--summary {
+    text-align: center;
+  }
+
+  &--emphasys {
+    font-weight: 500;
+  }
   &--position {
     font-size: 1.23rem;
   }
 
   &--contact {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 
   &--icon {
@@ -32,15 +45,21 @@
 
   &--heading {
     text-transform: uppercase;
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(161, 88, 0);
+    // text-align: center;
   }
 
   &--subheading {
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     position: relative;
+  }
+
+  &--link {
+    color: rgb(0, 115, 192);
   }
 
   &--paragraph {

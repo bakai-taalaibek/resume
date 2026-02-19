@@ -66,8 +66,8 @@ export const translationObject = [
   },
   {
     key: 'poputiTitle',
-    ru: 'Пет-проект — карпулинг сервис POPUTI.KG',
-    en: 'Pet Project — POPUTI.KG carpooling service',
+    ru: 'Карпулинг сервис для Кыргызской Республики — ',
+    en: 'Carpooling service for the Kyrgyz Republic — ',
   },
   {
     key: 'poputiBullet1',
@@ -87,28 +87,41 @@ export const translationObject = [
   },
   {
     key: 'epamBullet1',
-    ru: `Разработал full-stack онлайн-магазин игр на .NET с нуля`,
-    en: `Developed an online cosmetics store with administrative panel as a part of a 
-    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+    ru: `Разработал backend для онлайн-магазина игр `,
+    en: `Developed a backend for an online game store `,
+  },
+  {
+    key: 'epamBullet1Highlighted',
+    ru: `используя ASP.NET Core, EF Core`,
+    en: `using ASP.NET Core and EF Core`,
   },
   {
     key: 'epamBullet2',
-    ru: `Реализовал систему аутентификации и авторизации, 
-    фильтрацию и пагинацию товаров, систему комментариев, кэширование и логирование`,
-    en: `Developed an online cosmetics store with administrative panel as a part of a 
-    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+    ru: `Реализовал систему аутентификации и авторизации (JWT, роли, политики доступа), 
+    фильтрацию, сортировку и пагинацию товаров, систему комментариев, настроил кэширование 
+    для повышения производительности и логирование (Serilog)`,
+    en: `Implemented authentication and authorization (JWT, roles, policy-based access control), 
+    product filtering, sorting and pagination, a commenting system, caching for performance 
+    optimization, and structured logging (Serilog).`,
+  },
+  {
+    key: 'epamBullet3Highlighted',
+    ru: `Интегрировал SQL Server и легаси MongoDB`,
+    en: `Integrated SQL Server and a legacy MongoDB database`,
   },
   {
     key: 'epamBullet3',
-    ru: `Настроил контейнеризацию (Docker), middleware, сидирование и тестирование (XUnit, Moq)`,
-    en: `Developed an online cosmetics store with administrative panel as a part of a 
-    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+    ru: ` с автоматической миграцией и архивацией данных 
+    по заданным критериям`,
+    en: ` with automatic data migration and 
+    synchronization based on specified critirea.`,
   },
   {
     key: 'epamBullet4',
-    ru: `Использовал .NET, EF Core, ASP.NET Core, Serilog, интегрировал SQL Server и MongoDB`,
-    en: `Developed an online cosmetics store with administrative panel as a part of a 
-    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+    ru: `Интегрировал backend с frontend-частью, настроил контейнеризацию с Docker, 
+    кастомные middleware, сидирование базы данных и автоматическое тестирование (xUnit, Moq)`,
+    en: `Integrated the backend with the frontend, configured Docker-based containerization, 
+    custom middleware components, database seeding, and automated unit testing using xUnit and Moq.`,
   },
 
   {
@@ -147,9 +160,9 @@ export const translationObject = [
   },
   {
     key: 'devsBullet1',
-    ru: `Разработал онлайн-рекрутинг сервис, используя TypeScript, React, SCSS, 
+    ru: `Разработал онлайн-рекрутинг сервис; TypeScript, React, SCSS, 
     Redux Toolkit, WebSocket`,
-    en: `Developed an online recruiting service using TypeScript, React, SCSS, 
+    en: `Developed an online recruiting service; TypeScript, React, SCSS, 
     Redux Toolkit, WebSocket`,
   },
   {
@@ -176,11 +189,14 @@ export const translationObject = [
     en: 'June-July 2023',
   },
   {
+    key: 'rskBullet1Highlighted',
+    ru: `Занял первое место`,
+    en: `Awarded first place`,
+  },
+  {
     key: 'rskBullet1',
-    ru: `Занял первое место по результатам соревнования за разработку онлайн-систему очередей для банка,
-    используя JS, React, REST, Java, PostgreSQL, Agile, JIRA`,
-    en: `Awarded first place at the conclusion of a competition for developing an online queue system 
-    for a bank utilizing JS, React, REST, Java, PostgreSQL, Agile, JIRA`,
+    ru: ` за разработку онлайн-систему очередей для банка; JS, React, Agile, JIRA`,
+    en: ` for developing an online queue system for a bank; JS, React, Agile, JIRA`,
   },
   {
     key: 'rskBullet2',
@@ -206,8 +222,8 @@ export const translationObject = [
   },
   {
     key: 'makersBullet1',
-    ru: `Разработал Full-Stack проекты будучи тимлидом команды из 8 человек используя JS, React, REST, Node, MongoDB`,
-    en: `Developed Full-Stack projects while leading a team of 8 developers utilizing JS, React, REST, Node, MongoDB`,
+    ru: `Разработал Full-Stack проекты будучи тимлидом команды из 8 человек; JS, React, Node`,
+    en: `Developed Full-Stack projects while leading a team of 8 developers; JS, React, Node`,
   },
   {
     key: 'makersBullet2',
@@ -237,9 +253,14 @@ export const translationObject = [
     en: '2014-2023',
   },
   {
+    key: 'nationalBankBullet1Highlighted',
+    ru: `Получил Почетную грамоту`,
+    en: `Received a Certificate of Merit`,
+  },
+  {
     key: 'nationalBankBullet1',
-    ru: `Получил Почетную грамоту за особые заслуги перед Национальным банком`,
-    en: `Received a Certificate of Merit for special contributions to the National Bank`,
+    ru: ` за особые заслуги перед Национальным банком`,
+    en: ` for special contributions to the National Bank`,
   },
   {
     key: 'nationalBankBullet2',
@@ -252,12 +273,22 @@ export const translationObject = [
     en: 'Summary',
   },
   {
+    key: 'summaryMain',
+    ru: `.NET разработчик`,
+    en: `.NET developer`,
+  },
+
+  {
     key: 'summaryContent',
-    ru: `.NET разработчик с опытом во Frontend. Имею девятилетний опыт в банковской сфере, 
-    вошел в число 50 лучших выпускников по итогам Общереспубликанского тестирования.`,
-    en: `.NET developer with Frontend experience. I have nine years of experience 
-    in the banking domain, ranked among 50 best high school graduates in Kyrgyzstan based on 
-    Nationwide testing.`,
+    ru: ` с 3-летним опытом во frontend разработке и 9-летним опытом работы 
+    в банковской сфере. Быстро осваиваю новые технологии, решаю сложные задачи.`,
+    en: ` with 3 years of frontend development experience and 9 years of experience 
+    in the banking industry. I quickly learn new technologies and solve complex problems.`,
+  },
+  {
+    key: 'projects',
+    ru: 'Пет проект',
+    en: 'Pet project',
   },
   {
     key: 'skills',
@@ -286,25 +317,35 @@ export const translationObject = [
     en: `Education`,
   },
   {
+    key: 'krsuHighlighted',
+    ru: 'Окончил с отличием',
+    en: `Graduated with distinction`,
+  },
+  {
     key: 'krsu',
-    ru: 'Окончил с отличием Кыргызско-Российский Славянский университет, Экономический факультет,',
-    en: `Graduated with distinction from Kyrgyz-Russian Slavic University, Faculty of Economics,`,
+    ru: ' Кыргызско-Российский Славянский университет, Экономист,',
+    en: ` from Kyrgyz-Russian Slavic University, Economics,`,
   },
   {
     key: 'bishkek2012',
-    ru: 'Бишкек, 2012',
+    ru: '2012',
     en: 'Bishkek, 2012',
   },
   {
+    key: 'ortHighlighted',
+    ru: `Вошел в число 50 лучших`,
+    en: `Ranked among 50 best`,
+  },
+  {
     key: 'ort',
-    ru: `Вошел в число 50 лучших выпускников по итогам Общереспубликанского тестирования,`,
-    en: `Ranked among 50 best high school graduates based on Nationwide testing,`,
+    ru: ` выпускников школ в Кыргызстане (Золотой сертификат),`,
+    en: ` high school graduates based on Nationwide testing in Kyrgyzstan,`,
   },
 
   {
     key: 'Kyrgyzstan2007',
-    ru: `Кыргызстан, 2007`,
-    en: `Kyrgyzstan, 2007`,
+    ru: `2007`,
+    en: `2007`,
   },
   {
     key: 'school',
