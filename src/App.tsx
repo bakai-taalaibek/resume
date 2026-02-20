@@ -76,7 +76,13 @@ function App() {
               </a>
             </div>
             <ul className="list">
-              <li className="text text--list">{l('poputiBullet1')}</li>
+              <li className="text text--list">
+                <span className="highlight">{l('poputiBullet1Highlighted')}</span>
+                {l('poputiBullet1')}
+              </li>
+              <li className="text text--list">{l('poputiBullet2')}</li>
+              <li className="text text--list">{l('poputiBullet3')}</li>
+              <li className="text text--list">{l('poputiBullet4')}</li>
             </ul>
           </div>
           <div className="section">
@@ -109,7 +115,11 @@ function App() {
               </div>
               <ul>
                 <li className="text text--list list">{l('fortylinesBullet1')}</li>
-                {/* <li className="text text--list list">{l('fortylinesBullet2')}</li> */}
+                <li className="text text--list list">
+                  <span className="highlight">{l('fortylinesBullet2Highlighted')}</span>
+                  {l('fortylinesBullet2')}
+                </li>
+                <li className="text text--list list">{l('fortylinesBullet3')}</li>
               </ul>
             </div>
 

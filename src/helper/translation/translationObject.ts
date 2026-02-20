@@ -70,11 +70,34 @@ export const translationObject = [
     en: 'Carpooling service for the Kyrgyz Republic — ',
   },
   {
+    key: 'poputiBullet1Highlighted',
+    ru: `Самостоятельно спроектировал и разработал full-stack`,
+    en: `Independently designed and developed a full-stack`,
+  },
+  {
     key: 'poputiBullet1',
-    ru: `Спроектировал и разработал full-stack веб-приложение для карпулинг-сервиса с нуля`,
-    en: `Designed and developed a full-stack carpooling web application from scratch`,
+    ru: ` веб-приложение (карпулинг-сервис), реализовав backend на .NET и EF Core и 
+    frontend на Next.js с Mantine, демонстрируя полный цикл ответственности за проект от начала до конца`,
+    en: ` carpooling web application, implementing the backend with .NET and EF Core 
+    and the frontend with Next.js and Mantine, demonstrating full end-to-end project ownership`,
+  },
+  {
+    key: 'poputiBullet2',
+    ru: `Спроектировал архитектуру приложения, включая API, разделение слоев и базу данных`,
+    en: `Designed the application architecture, including the API, layered structure, and database schema`,
   },
 
+  {
+    key: 'poputiBullet3',
+    ru: `Реализовал функционал поиска, фильтрации и сортировки поездок по дате, маршруту и цене`,
+    en: `Implemented trip search, filtering, and sorting by date, route, and price.`,
+  },
+
+  {
+    key: 'poputiBullet4',
+    ru: `Интегрировал аутентификацию и авторизацию с Firebase (номера телефонов, Google и почта)`,
+    en: `Integrated authentication and authorization with Firebase (phone numbers, Google, and email)`,
+  },
   {
     key: 'epamTitle',
     ru: 'Стажер .NET разработчик, “EPAM Lab”,',
@@ -136,17 +159,24 @@ export const translationObject = [
   },
   {
     key: 'fortylinesBullet1',
-    ru: `Разработал онлайн-магазин косметики с админ панелью в команде из 10 человек 
-    используя TypeScript, Next, React, Chakra UI, RTK Query и React Hook Form`,
-    en: `Developed an online cosmetics store with administrative panel as a part of a 
-    team of 10 members using TypeScript, Next, React, Chakra UI, RTK Query and React Hook Form`,
+    ru: `Разработал онлайн-магазин косметики с админ панелью в команде из 10 человек`,
+    en: `Developed an online cosmetics store with an admin panel as part of a 10-person team`,
+  },
+  {
+    key: 'fortylinesBullet2Highlighted',
+    ru: `Спроектировал декларативный слой взаимодействия с API`,
+    en: `Designed a declarative API interaction layer`,
   },
   {
     key: 'fortylinesBullet2',
-    ru: `Регулярно проводил код-ревью, реализовал адаптивную верстку страниц, 
-    вносил предложения по архитектуре проекта и решению сложных задач`,
-    en: `Conducted regular code reviews, implemented adaptive page layout, 
-    made suggestions on project architecture and solving complex problems`,
+    ru: ` на базе RTK Query, минимизировав дублирование кода (DRY) и стандартизировав работу 
+    с запросами`,
+    en: ` using RTK Query, minimizing code duplication (DRY) and standardizing request handling`,
+  },
+  {
+    key: 'fortylinesBullet3',
+    ru: `Разрабатывал ключевые пользовательские интерфейсы на TypeScript, Next.js и React`,
+    en: `Developed key user interfaces using TypeScript, Next.js, and React`,
   },
   {
     key: 'devsTitle',
@@ -175,13 +205,13 @@ export const translationObject = [
 
   {
     key: 'rskTitle1',
-    ru: 'Стажер Frontend разработчик,',
-    en: 'Front-End Developer Intern,',
+    ru: 'Frontend разработчик,',
+    en: 'Front-End Developer,',
   },
   {
     key: 'rskTitle2',
-    ru: '“РСК Банк” + “Makers”,',
-    en: '“RSK Bank” + “Makers”,',
+    ru: 'конкурс “РСК Банк” + “Makers”,',
+    en: '“RSK Bank” + “Makers” competition,',
   },
   {
     key: 'juneJuly2023',
